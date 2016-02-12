@@ -295,7 +295,9 @@ svg path {
 .person img {
   max-width: 220px;
   display: inline-block;
-  border-radius: 50%; }
+  border-radius: 50%;
+  -webkit-filter: grayscale(30%) contrast(114%);
+}
 
 .s_about p {
   margin-bottom: 25px; }
