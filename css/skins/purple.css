@@ -24,10 +24,10 @@ body .main_footer,
 .bg_dark {
   background-color: #222;
   color: #fff; }
-  .bg_dark .s_descr::after {
-    background-color: #fff; }
-  .bg_dark a {
-    color: #fff; }
+.bg_dark .s_descr::after {
+  background-color: #fff; }
+.bg_dark a {
+  color: #fff; }
 
 .top_mnu a:hover {
   color: #8238A7; }
@@ -35,16 +35,18 @@ body .main_footer,
   letter-spacing: 4px; }
 
 .top_text p {
-  color: #FAFAFA;
-  letter-spacing: 5px; }
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px;
+}
 
 .personal_header {
   letter-spacing: 2px; }
 
 .s_descr {
   letter-spacing: 4px; }
-  .s_descr::after {
-    background-color: #222; }
+.s_descr::after {
+  background-color: #222; }
 
 section h3 {
   letter-spacing: 3px;
