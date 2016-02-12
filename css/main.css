@@ -93,6 +93,7 @@ section {
     position: absolute; }
 .logo{
   z-index: 11;
+  position: relative;
 }
 .logo_container {
   float: left; }
